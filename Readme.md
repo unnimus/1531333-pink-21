@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Baillot Edouard](https://up.htmlacademy.ru/adaptive/21/user/1531333).
-* Наставник: Анна Лисененкова.
+* Наставник: Анна Лисененкова. (https://htmlacademy.ru/profile/ankhena)
 
 ---
 
