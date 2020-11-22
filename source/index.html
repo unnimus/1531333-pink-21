@@ -5,19 +5,17 @@
   <title>HTML Academy: Пинк</title>
 </head>
 <body>
-<header class="page-header">
-   <a class="page-header__logo logo"><img src="#" alt="Лого"></a>
+<header class="header">
+   <a class="header__logo logo"><img src="#" alt="Лого"></a>
   <nav class="navigation">
     <button class="navigation__toggle" type="button"><span class="visualy-hidden">Открыть меню</span></button>
-    <div class="navigation__wrapper">
       <ul class="navigation__list site-list">
       <li class="site-list__item"><a>Главная</a></li>
       <li class="site-list__item"><a>Фотографии</a></li>
       <li class="site-list__item"><a>Конкурс</a></li>
       <li class="site-list__item"><a>HTML Academy</a></li>
     </ul>
-    </div>
-  </nav>
+      </nav>
 </header>
 <main class="page-main">
 
@@ -28,29 +26,27 @@
   <p class="download-app__description-top">Взгляните на жизнь иначе!</p>
   <button type="button" class="download-app__button">Скачать приложение</button>
   <ul class="download-app__list">
-    <li class="download-app__item"><a href="#"></a></li>
-    <li class="download-app__item"><a href="#"></a></li>
-    <li class="download-app__item"><a href="#"></a></li>
+    <li class="download-app__item"><a href="#"><img src="#" alt="Ссылка на Apple Store"></a></li>
+    <li class="download-app__item"><a href="#"><img src="#" alt="Ссылка на Play Market"></a></li>
+    <li class="download-app__item"><a href="#"><img src="#" alt="Ссылка на Microsoft Store"></a></li>
   </ul>
-  <p class="download-app__description-bottom">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-  </div>
-</section>
-<section class="offers">
-  <div class="offers__wrapper">
-  <h2 class="visually-hidden">Предложения</h2>
-  <p class="offers__item">Устали от серости мегаполиса? <br>
-   Нам есть, что вам предложить!</p>
+  <p class="download-app__description">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
   </div>
 </section>
 <section class="advantages">
-  <div class="advantages__wrapper">
   <h2 class="visualy-hidden">Преимущества</h2>
+  <div class="advantages__wrapper">
+    <p class="advantages__legend">Устали от серости мегаполиса? <br>
+      Нам есть, что вам предложить!</p>
   <ul class="advantages__list">
-    <li class="advantages__item">Поднимает настроение
+    <li class="advantages__item">
+      <h4 class="advantages__title">Поднимает настроение</h4>
       <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p></li>
-    <li class="advantages__item">Меняет мир вокруг
+    <li class="advantages__item">
+      <h4 class="advantages__title">Меняет мир вокруг</h4>
       <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p></li>
-    <li class="advantages__item">Заводит новых друзей
+    <li class="advantages__item">
+      <h4 class="advantages__title">Заводит новых друзей</h4>
       <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p></li>
   </ul>
   <img src="#" alt="">
@@ -141,13 +137,13 @@
    <h3 class="contacts__title">Остались вопросы? <br> Свяжитесь с нами!</h3>
   <ul class="contacts__list">
     <li class="contacts__item">Звоните:
-      <p>+7 (812) 555-66-66</p>
+      <p class="contact_description">+7 (812) 555-66-66</p>
     </li>
     <li class="contacts__item">Пишите:
-      <p>mail@htmlacademy.ru</p>
+      <p class="contact_description">mail@htmlacademy.ru</p>
     </li>
     <li class="contacts__item">Приезжайте в гости:
-      <p>ул. Большая <br> Конюшенная, 19/8</p>
+      <p class="contact_description">ул. Большая <br> Конюшенная, 19/8</p>
     </li>
   </ul>
   </div>
@@ -161,10 +157,8 @@
 </section>
 <footer>
 
-  <section class="logo-footer">
-    <h2 class="visualy-hidden">Логотип</h2>
-    <a class="logo-footer logo"><img src="#" alt="Лого подвала"></a>
-  </section>
+    <a class="logo-footer logo"><img src="#" alt="Лого PINK"></a>
+
   <section class="social">
     <h2 class="visualy-hidden">Социальные сети</h2>
     <ul class="social__list">
