@@ -23,54 +23,54 @@
   <h2 class="form-main__legend">Поделитесь своей историей и получите <br> шанс выиграть ценный приз — 1000 <br> миль на вашу бонусную карту!</h2>
   <form action="https://echo.htmlacademy.ru/" method="get" class="form">
     <label for="surname" class="form-main__item">Фамилия:</label>
-    <input type="text" required id="surname" name="surname" value="Укажите фамилию *"> <br>
+    <input type="text" required id="surname" name="surname" value="Укажите фамилию *" class="form-main__input-text"> <br>
 
     <label for="name" class="form-main__item">Имя:</label>
-    <input type="text" required id="name" name="name" value="Введите ваше имя *"> <br>
+    <input type="text" required id="name" name="name" value="Введите ваше имя *" class="form-main__input-text> <br>
 
-    <label for="middle-name" class="form-main__item">Отчество:</label>
-    <input type="text" required id="middle-name" name="middle-name" value="Ну и отчество тоже">
+    <label for="lastname" class="form-main__item">Отчество:</label>
+    <input type="text" required id="middle" name="lastname" value="Ну и отчество тоже" class="form-main__input-text>
 
     <h3 class="form-main__item"> Ваши безбашенные <br> достижения в путешествии</h3>
 
-    <label for="shark">Сделал селфи с акулой</label>
-    <input type="checkbox" name="adventures" id="shark"> <br>
+    <label for="shark" class="form-main__adventures">Сделал селфи с акулой</label>
+    <input type="checkbox" name="adventures" id="shark" class="form-main__input-checkbox> <br>
 
-    <label for="beach">Обгорел на пляже</label>
-    <input type="checkbox" name="adventures" id="beach"> <br>
+    <label for="beach" class="form-main__adventures">Обгорел на пляже</label>
+    <input type="checkbox" name="adventures" id="beach" class="form-main__input-checkbox> <br>
 
-    <label for="norris">Видел Чака Норриса</label>
-    <input type="checkbox" name="adventures" id="norris"> <br>
+    <label for="norris" class="form-main__adventures">Видел Чака Норриса</label>
+    <input type="checkbox" name="adventures" id="norris" class="form-main__input-checkbox> <br>
 
-    <label for="souvenirs">Накупил сувениров</label>
-    <input type="checkbox" name="adventures" id="souvenirs"> <br>
+    <label for="souvenirs" class="form-main__adventures">Накупил сувениров</label>
+    <input type="checkbox" name="adventures" id="souvenirs" class="form-main__input-checkbox> <br>
 
-    <label for="tower">Удержал башню</label>
-    <input type="checkbox" name="adventures" id="tower"> <br>
+    <label for="tower" class="form-main__adventures">Удержал башню</label>
+    <input type="checkbox" name="adventures" id="tower" class="form-main__input-checkbox> <br>
 
-    <label for="hotel">Разгромил отель</label>
-    <input type="checkbox" name="adventures" id="hotel"> <br>
+    <label for="hotel" class="form-main__adventures">Разгромил отель</label>
+    <input type="checkbox" name="adventures" id="hotel" class="form-main__input-checkbox> <br>
 
     <label for="number" class="form-main__item">Номер телефона</label>
-    <input type="text" name="number" id="number" value="Номер, пожалуйста"> <br>
+    <input type="text" name="number" id="number" value="Номер, пожалуйста" class="form-main__input-text> <br>
 
     <label for="mail" class="form-main__item">Адрес почты</label>
-    <input type="text" required name="mail" id="mail" value="Введите почту *"> <br>
+    <input type="text" required name="mail" id="mail" value="Введите почту *" class="form-main__input-text> <br>
 
     <h3 class="form-main__item"> С каким приложением <br> путешествовали?</h3>
 
-    <label for="ios">Pink для iOS</label>
-    <input type="radio" name="os" value="Pink для iOS" id="ios"> <br>
+    <label for="ios" class="form-main__os">Pink для iOS</label>
+    <input type="radio" name="os" value="Pink для iOS" id="ios" class="form-main__input-radio> <br>
 
-    <label for="android">Pink на Android</label>
-    <input type="radio" name="os" value="Pink на Android" id="android"> <br>
+    <label for="android" class="form-main__os">Pink на Android</label>
+    <input type="radio" name="os" value="Pink на Android" id="android" class="form-main__input-radio> <br>
 
-    <label for="windows">Windows Phone</label>
-    <input type="radio" name="os" value="Windows Phone" id="windows"> <br>
+    <label for="windows" class="form-main__os">Windows Phone</label>
+    <input type="radio" name="os" value="Windows Phone" id="windows" class="form-main__input-radio> <br>
 
     <h3 class="form-main__item">Опишите свои эмоции</h3>
 
-    <textarea name="coments" id="coments" cols="30" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
+    <textarea name="coments" id="coments" cols="30" rows="10" class="form-main__area">Можно прям в красках, не стесняясь в выражениях</textarea>
     <br>
 
     <button type="submit" class="form-main__submit form-main__submit--active">Отправить форму</button>
@@ -83,13 +83,13 @@
   <section class="error">
     <h2 class="error__alert">Что-то пошло <br>  не так!</h2>
     <p class="error__description">Проверьте поля, выделенные <br> красным, скорее всего вы забыли <br> их заполнить</p> <br>
-    <button type="submit">ОК</button>
+    <button type="submit" class="error__button">ОК</button>
   </section>
 
   <section class="sent">
     <h2 class="sent__message">Ваша заявка <br> отправлена</h2> <br>
     <p class="sent__description">Спасибо за ваше участие, ваша <br> заявка уже поступила к нам. В <br> ближайшее время мы рассмотрим <br> ее и оповестим вас.</p> <br>
-    <button type="submit">Закрыть окно</button>
+    <button type="submit" class="sent__button">Закрыть окно</button>
   </section>
 
 
@@ -103,10 +103,10 @@
       <li class="social__item"><a href ="#">YouTube</a></li>
     </ul>
   </section>
-  <section class="elaborated">
-    <h2 class="visualy-hidden">Сайт разработан html academy</h2>
-    <p class="elaborated__description">Разработано <img src="#" alt="Лого HtmlAcademy"></p>
-  </section>
+  <p class="elaborated">
+    Разработано:
+    <a class="elaborated__content"> <img src="#" alt="Лого HtmlAcademy"></a>
+  </p>
 </footer>
 </main>
 </body>
