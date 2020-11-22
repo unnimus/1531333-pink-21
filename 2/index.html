@@ -1,134 +1,184 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Пинк</title>
-    <base href="https://htmlacademy-adaptive.github.io/1531333-pink-21/2/">
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+  <base href="https://htmlacademy-adaptive.github.io/1531333-pink-21/2/">
 </head>
-  <body>
-<header>
-  <nav>
-    <img src="#" alt="Лого">
-      <ul class="menu-list">
-        <li>Главная</li>
-        <li>Фотографии</li>
-        <li>Конкурс</li>
-        <li>HTML Academy</li>
-      </ul>
-
+<body>
+<header class="page-header">
+   <a class="page-header__logo logo"><img src="#" alt="Лого"></a>
+  <nav class="navigation">
+    <button class="navigation__toggle" type="button"><span class="visualy-hidden">Открыть меню</span></button>
+    <div class="navigation__wrapper">
+      <ul class="navigation__list site-list">
+      <li class="site-list__item"><a>Главная</a></li>
+      <li class="site-list__item"><a>Фотографии</a></li>
+      <li class="site-list__item"><a>Конкурс</a></li>
+      <li class="site-list__item"><a>HTML Academy</a></li>
+    </ul>
+    </div>
   </nav>
 </header>
-  <section>
-    <img src="#" alt="">
-    <h2 class="visualy-hidden">Скачать приложение</h2>
-    <p>Взгляните на жизнь иначе!</p>
-    <button type="button">Скачать приложение</button>
-    <ul class="store-aplication">
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-      <li><a href="#"></a></li>
-    </ul>
-  <p>Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
-  </section>
-<section>
-  <h2 class="visually-hidden">Предложения</h2>
-  <p>Устали от серости мегаполиса?</p>
-  <p> Нам есть, что вам предложить!</p>
+<main class="page-main">
+
+<section class="dowland-app">
+  <h1 class="visualy-hidden">Скачать приложение</h1>
+  <div class="dowland-app__wrapper">
+  <img src="#" alt="">
+  <p class="dowland-app__description-top">Взгляните на жизнь иначе!</p>
+  <button type="button" class="dowland-app__button">Скачать приложение</button>
+  <ul class="dowland-app__list">
+    <li class="dowland-app__item"><a href="#"></a></li>
+    <li class="dowland-app__item"><a href="#"></a></li>
+    <li class="dowland-app__item"><a href="#"></a></li>
+  </ul>
+  <p class="dowland-app__description-bottom">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+  </div>
 </section>
-  <section>
-    <h2 class="visualy-hidden">Преимущества</h2>
-    <ul class="advantages">
-      <li>Поднимает настроение
-      <p>Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p></li>
-      <li>Меняет мир вокруг
-      <p>Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p></li>
-      <li>Заводит новых друзей
-      <p>Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p></li>
+<section class="offers">
+  <div class="offers__wrapper">
+  <h2 class="visually-hidden">Предложения</h2>
+  <p class="offers__item">Устали от серости мегаполиса? <br>
+   Нам есть, что вам предложить!</p>
+  </div>
+</section>
+<section class="advantages">
+  <div class="advantages__wrapper">
+  <h2 class="visualy-hidden">Преимущества</h2>
+  <ul class="advantages__list">
+    <li class="advantages__item">Поднимает настроение
+      <p class="advantages__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p></li>
+    <li class="advantages__item">Меняет мир вокруг
+      <p class="advantages__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p></li>
+    <li class="advantages__item">Заводит новых друзей
+      <p class="advantages__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p></li>
+  </ul>
+  <img src="#" alt="">
+  </div>
+</section>
+<section class="reviews">
+  <h2 class="visualy-hidden">Отзывы</h2>
+  <div class="reviews__wrapper slider">
+    <ul class="reviews__list slider-list">
+      <li class="reviews__item slider-item">
+  <h3 class="reviews__person">Николай Петров</h3>
+  <p class="reviews__description">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился
+    со своей будущей женой в комментариях к выложенной фотографии!»</p>
+      </li>
     </ul>
-    <img src="#" alt="">
-  </section>
-  <section>
-    <h2 class="visualy-hidden">Отзывы</h2>
-    <h3>Николай Петров</h3>
-    <p>«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
-      <button class="slide" type="button">1</button>
-      <button class="slide" type="button">2</button>
-      <button class="slide" type="button">3</button>
-  </section>
-  <section>
-    <h2 class="visualy-hidden">Таблица цен</h2>
-<table>
-  <tr>
-    <td></td>
-    <td>База
-    <p>1,99 USD</p>
-    </td>
-    <td>Стандарт
-      <p>3,99 USD</p>
-    </td>
-    <td>Анилим
-      <p>9,99 USD</p>
-    </td>
-  </tr>
-  <tr>
-    <td>Розовый фильтр</td>
-    <td><svg></svg></td>
-    <td><svg></svg></td>
-    <td><svg></svg></td>
-  </tr>
-  <tr>
-    <td>Смайлики</td>
-    <td><svg></svg></td>
-    <td><svg></svg></td>
-    <td><svg></svg></td>
-  </tr>
-  <tr>
-    <td>Комментарии</td>
-    <td><svg></svg></td>
-    <td><svg></svg></td>
-    <td><svg></svg></td>
-  </tr>
-</table>
-    <button class="slide-price" type="button">1</button>
-    <button class="slide-price" type="button">2</button>
-    <button class="slide-price" type="button">3</button>
-  </section>
-  <section>
-    <h2 class="visualy-hidden">Контакты</h2>
-    <h3>Остались вопросы? <br> Свяжитесь с нами!</h3>
-    <ul class="contacts-list">
-      <li>Звоните:
+    <p class="reviews__toggles slider__toggles">
+      <button class="slider__toggle" type="button">1</button>
+      <button class="slider__toggle" type="button">2</button>
+      <button class="slider__toggle" type="button">3</button>
+    </p>
+  </div>
+</section>
+
+<section class="price">
+  <h2 class="visualy-hidden">Таблица цен</h2>
+  <div class="price__wrapper slider">
+  <table class="price__table">
+    <tr class="price__columns">
+      <td></td>
+      <td>База
+        <p>1,99 USD</p>
+      </td>
+      <td>Стандарт
+        <p>3,99 USD</p>
+      </td>
+      <td>Анилим
+        <p>9,99 USD</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Розовый фильтр</td>
+      <td>
+        <svg></svg>
+      </td>
+      <td>
+        <svg></svg>
+      </td>
+      <td>
+        <svg></svg>
+      </td>
+    </tr>
+    <tr>
+      <td>Смайлики</td>
+      <td>
+        <svg></svg>
+      </td>
+      <td>
+        <svg></svg>
+      </td>
+      <td>
+        <svg></svg>
+      </td>
+    </tr>
+    <tr>
+      <td>Комментарии</td>
+      <td>
+        <svg></svg>
+      </td>
+      <td>
+        <svg></svg>
+      </td>
+      <td>
+        <svg></svg>
+      </td>
+    </tr>
+  </table>
+    <p class="price__toggles slider__toggles">
+  <button class="slider__toggle" type="button">1</button>
+  <button class="slider__toggle" type="button">2</button>
+  <button class="slider__toggle" type="button">3</button>
+    </p>
+  </div>
+</section>
+
+<section class="contacts">
+  <h2 class="visualy-hidden">Контакты</h2>
+  <div class="contacts__wrapper">
+   <h3 class="contacts__title">Остались вопросы? <br> Свяжитесь с нами!</h3>
+  <ul class="contacts__list">
+    <li class="contacts__item">Звоните:
       <p>+7 (812) 555-66-66</p>
-      </li>
-      <li>Пишите:
+    </li>
+    <li class="contacts__item">Пишите:
       <p>mail@htmlacademy.ru</p>
-      </li>
-      <li>Приезжайте в гости:
+    </li>
+    <li class="contacts__item">Приезжайте в гости:
       <p>ул. Большая <br> Конюшенная, 19/8</p>
-      </li>
+    </li>
+  </ul>
+  </div>
+</section>
+
+<section class="map">
+  <h2 class="visualy-hidden">Карта</h2>
+  <div class="map__wrapper">
+  <img src="#" alt="">
+  </div>
+</section>
+<footer>
+
+  <section class="logo-footer">
+    <h2 class="visualy-hidden">Логотип</h2>
+    <a class="logo-footer logo"><img src="#" alt="Лого подвала"></a>
+  </section>
+  <section class="social">
+    <h2 class="visualy-hidden">Социальные сети</h2>
+    <ul class="social__list">
+      <li class="social__item"></li>
+      <li class="social__item"></li>
+      <li class="social__item"></li>
     </ul>
   </section>
-  <section>
-    <h2 class="visualy-hidden">Карта</h2>
-    <img src="#" alt="">
+  <section class="elaborated">
+    <h2 class="visualy-hidden">Разработка</h2>
+    <p class="elaborated__description">Разработано <img src="#" alt=""></p>
   </section>
-  <footer>
-    <section>
-      <h2 class="visualy-hidden">Логотип</h2>
-    <img src="#" alt="Лого подвала">
-      </section>
-    <section>
-        <h2 class="visualy-hidden">Социальные сети</h2>
-        <ul class="social-list">
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </section>
-      <section>
-        <h2 class="visualy-hidden">Разработка</h2>
-        <p>Разработано <img src="#" alt=""></p>
-      </section>
-  </footer>
-  </body>
+</footer>
+</main>
+</body>
 </html>
