@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+  <base href="https://htmlacademy-adaptive.github.io/1531333-pink-21/3/">
+  <base href="https://htmlacademy-adaptive.github.io/1531333-pink-21/5/">
+</head>
+<body>
+<header class="header">
+  <a class="header__logo logo"><img src="#" alt="Лого"></a>
+  <nav class="navigation">
+    <button class="navigation__toggle" type="button"><span class="visualy-hidden">Открыть меню</span></button>
+    <ul class="navigation__list site-list">
+      <li class="site-list__item"><a href="index.html">Главная</a></li>
+      <li class="site-list__item"><a href="catalog.html">Фотографии</a></li>
+      <li class="site-list__item"><a href="form.html">Конкурс</a></li>
+      <li class="site-list__item"><a>HTML Academy</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="form-main">
+  <h1 class="form-main__title">Конкурс на самое <br> безбашенное <br>путешествие с Пинк</h1>
+  <h2 class="form-main__legend">Поделитесь своей историей и получите <br> шанс выиграть ценный приз — 1000 <br> миль на вашу бонусную карту!</h2>
+  <form action="https://echo.htmlacademy.ru/" method="get" class="form">
+    <label for="surname" class="form-main__item">Фамилия:</label>
+    <input type="text" required id="surname" name="surname" value="Укажите фамилию *"> <br>
+
+    <label for="name" class="form-main__item">Имя:</label>
+    <input type="text" required id="name" name="name" value="Введите ваше имя *"> <br>
+
+    <label for="middle-name" class="form-main__item">Отчество:</label>
+    <input type="text" required id="middle-name" name="middle-name" value="Ну и отчество тоже">
+
+    <h3 class="form-main__item"> Ваши безбашенные <br> достижения в путешествии</h3>
+
+    <label for="shark">Сделал селфи с акулой</label>
+    <input type="checkbox" name="adventures" id="shark"> <br>
+
+    <label for="beach">Обгорел на пляже</label>
+    <input type="checkbox" name="adventures" id="beach"> <br>
+
+    <label for="norris">Видел Чака Норриса</label>
+    <input type="checkbox" name="adventures" id="norris"> <br>
+
+    <label for="souvenirs">Накупил сувениров</label>
+    <input type="checkbox" name="adventures" id="souvenirs"> <br>
+
+    <label for="tower">Удержал башню</label>
+    <input type="checkbox" name="adventures" id="tower"> <br>
+
+    <label for="hotel">Разгромил отель</label>
+    <input type="checkbox" name="adventures" id="hotel"> <br>
+
+    <label for="number" class="form-main__item">Номер телефона</label>
+    <input type="text" name="number" id="number" value="Номер, пожалуйста"> <br>
+
+    <label for="mail" class="form-main__item">Адрес почты</label>
+    <input type="text" required name="mail" id="mail" value="Введите почту *"> <br>
+
+    <h3 class="form-main__item"> С каким приложением <br> путешествовали?</h3>
+
+    <label for="ios">Pink для iOS</label>
+    <input type="radio" name="os" value="Pink для iOS" id="ios"> <br>
+
+    <label for="android">Pink на Android</label>
+    <input type="radio" name="os" value="Pink на Android" id="android"> <br>
+
+    <label for="windows">Windows Phone</label>
+    <input type="radio" name="os" value="Windows Phone" id="windows"> <br>
+
+    <h3 class="form-main__item">Опишите свои эмоции</h3>
+
+    <textarea name="coments" id="coments" cols="30" rows="10">Можно прям в красках, не стесняясь в выражениях</textarea>
+    <br>
+
+    <button type="submit" class="form-main__submit form-main__submit--active">Отправить форму</button>
+
+
+    <p class="form-main__description">*- обязательные поля</p>
+
+  </form>
+
+  <section class="error">
+    <h2 class="error__alert">Что-то пошло <br>  не так!</h2>
+    <p class="error__description">Проверьте поля, выделенные <br> красным, скорее всего вы забыли <br> их заполнить</p> <br>
+    <button type="submit">ОК</button>
+  </section>
+
+  <section class="sent">
+    <h2 class="sent__message">Ваша заявка <br> отправлена</h2> <br>
+    <p class="sent__description">Спасибо за ваше участие, ваша <br> заявка уже поступила к нам. В <br> ближайшее время мы рассмотрим <br> ее и оповестим вас.</p> <br>
+    <button type="submit">Закрыть окно</button>
+  </section>
+
+
+  <footer class="footer">
+    <a class="logo-footer logo"><img src="#" alt="Лого PINK"></a>
+    <section class="social">
+      <h2 class="visualy-hidden">Социальные сети</h2>
+      <ul class="social__list">
+        <li class="social__item"><a href ="#">Twitter</a></li>
+        <li class="social__item"><a href ="#">Facebook</a></li>
+        <li class="social__item"><a href ="#">YouTube</a></li>
+      </ul>
+    </section>
+    <section class="elaborated">
+      <h2 class="visualy-hidden">Сайт разработан html academy</h2>
+      <p class="elaborated__description">Разработано <img src="#" alt="Лого HtmlAcademy"></p>
+    </section>
+  </footer>
+</main>
+</body>
+</html>
