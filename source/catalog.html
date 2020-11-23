@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+  <base href="https://htmlacademy-adaptive.github.io/1531333-pink-21/3/">
+</head>
+<body>
+<header class="header">
+  <a class="header__logo logo"><img src="#" alt="Лого"></a>
+  <nav class="navigation">
+    <button class="navigation__toggle" type="button"><span class="visualy-hidden">Открыть меню</span></button>
+    <ul class="navigation__list site-list">
+      <li class="site-list__item"><a href="index.html">Главная</a></li>
+      <li class="site-list__item"><a href="catalog.html">Фотографии</a></li>
+      <li class="site-list__item"><a href="form.html">Конкурс</a></li>
+      <li class="site-list__item"><a>HTML Academy</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="catalog-main">
+  <h1 class="catalog-main__title">Фотографии <br> пользователей</h1>
+  <h2 class="catalog-main__description">Взгляните на фотографии, которые  выкладывают пользователи! Видите, как не хватает ваших?</h2>
+  <ul class="catalog-main__list photo-item">
+    <li class="photo-item">
+      <img src="#" alt="Панорамное фото моста">
+      <h3 class="photo-item__title">Анна (5 минут назад)</h3>
+      <p class="photo-item__description">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</p>
+      <button class="photo-item__button photo-item__button--active"><img src="#" alt="Значок сердечка, нравится"></button>
+      <p class="photo-item__like">Нравится: 215</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото автомобиля">
+      <h3 class="photo-item__title">Левон (5 часов назад)</h3>
+      <p class="photo-item__description">Вчера он на луну летал, сегодня в руки к нам попал.</p>
+      <button class="photo-item__button photo-item__button--active"><img src="#" alt="Значок сердечка, нравится"></button>
+      <p class="photo-item__like">Нравится: 356</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото барабанной установки">
+      <h3 class="photo-item__title">Антон (12 часов назад)</h3>
+      <p class="photo-item__description">Соседи будут рады!.</p>
+      <button class="photo-item__button photo-item__button--active"><img src="#" alt="Значок сердечка, нравится"></button>
+      <p class="photo-item__like">Нравится: 666</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото панорамного окна">
+      <h3 class="photo-item__title">Борис (20 часов назад)</h3>
+      <p class="photo-item__description">Здесь могла быть ваша цитата о высоком и вечном.</p>
+      <button class="photo-item__button photo-item__button--active"><img src="#" alt="Значок сердечка, нравится"></button>
+      <p class="photo-item__like">Нравится: 215</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото овощного рынка под большим тентом">
+      <h3 class="photo-item__title">Сергей (25 часов назад)</h3>
+      <p class="photo-item__description">Самая кубанская в мире!</p>
+      <button class="photo-item__button photo-item__button--active"><img src="#" alt="Значок сердечка, нравится"></button>
+      <p class="photo-item__like">Нравится: 4</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Панорамное фото гор без снега">
+      <h3 class="photo-item__title">Максим (40 часов назад)</h3>
+      <p class="photo-item__description">Где снег-то?</p>
+      <button class="photo-item__button photo-item__button--active"><img src="#" alt="Значок сердечка, нравится"></button>
+      <p class="photo-item__like">Нравится: 150</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото крыла летящего самолета на фоне заката">
+      <h3 class="photo-item__title">Всем GM и взаимные лайки!</h3>
+      <p class="photo-item__description">Где снег-то?</p>
+      <button class="photo-item__button photo-item__button--active"><img src="#" alt="Значок сердечка, нравится"></button>
+      <p class="photo-item__like">Нравится: 2560</p>
+    </li>
+  </ul>
+  <section class="filter-section">
+    <h1 class="filter-section__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</h1>
+    <img src="#" alt="Фото заснеженной дороги на фоне заката">
+    <button class="filter-section__button button-filter" name="button-filter" type="button"><img src="#" alt="Значок обрезания фотографии">Обрезать изображение</button>
+    <button class="filter-section__button button-filter" name="button-filter" type="button"><img src="#" alt="Значок заливки фотографии">Залить изображение цветом</button>
+    <button class="filter-section__button button-filter" name="button-filter" type="button"><img src="#" alt="Значок освещения фотографии">Изменить освещение изображения</button>
+    <input type="range" min="0" max="100" step="1" value="50" class="filter-section__range">
+    <input type="range" min="0" max="100" step="1" value="50" class="filter-section__range">
+    <input type="range" min="0" max="100" step="1" value="50" class="filter-section__range">
+    <button class="filter-section__submit" name="send" type="submit">Запостить</button>
+    <button class="filter-section__cancel filter-section__cancel--disabled" name="cancel" type="reset">Отмена</button>
+  </section>
+
+  <footer class="footer">
+    <a class="logo-footer logo"><img src="#" alt="Лого PINK"></a>
+    <section class="social">
+      <h2 class="visualy-hidden">Социальные сети</h2>
+      <ul class="social__list">
+        <li class="social__item"><a href ="#">Twitter</a></li>
+        <li class="social__item"><a href ="#">Facebook</a></li>
+        <li class="social__item"><a href ="#">YouTube</a></li>
+      </ul>
+    </section>
+    <section class="elaborated">
+      <h2 class="visualy-hidden">Сайт разработан html academy</h2>
+      <p class="elaborated__description">Разработано <img src="#" alt="Лого HtmlAcademy"></p>
+    </section>
+  </footer>
+</main>
+</body>
+</html>
