@@ -1,24 +1,113 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="page" lang="ru">
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Пинк</title>
 </head>
 <body>
-<header>
-  <nav>
-    <img src="" alt="#" width="" height="">
-    <ul class="menu-list">
-      <li>Главная</li>
-      <li>Фотографии</li>
-      <li>Конкурс</li>
-      <li>HTML Academy</li>
+<header class="header">
+  <a class="header__logo logo"><img src="#" alt="Лого"></a>
+  <nav class="navigation">
+    <button class="navigation__toggle" type="button"><span class="visualy-hidden">Открыть меню</span></button>
+    <ul class="navigation__list site-list">
+      <li class="site-list__item"><a href="index.html">Главная</a></li>
+      <li class="site-list__item"><a>Фотографии</a></li>
+      <li class="site-list__item"><a href="form.html">Конкурс</a></li>
+      <li class="site-list__item"><a>HTML Academy</a></li>
+
     </ul>
-
   </nav>
+</header>
+<main class="form-main">
+  <h1 class="form-main__title">Конкурс на самое <br> безбашенное <br>путешествие с Пинк</h1>
+  <h2 class="form-main__legend">Поделитесь своей историей и получите <br> шанс выиграть ценный приз — 1000 <br> миль на вашу бонусную карту!</h2>
+  <form action="https://echo.htmlacademy.ru/" method="get" class="form">
+    <label for="surname" class="form-main__item">Фамилия:</label>
+    <input type="text" required class="form-main__input-text" id="surname" name="surname" value="Укажите фамилию *"> <br>
+
+    <label for="name" class="form-main__item">Имя:</label>
+    <input type="text" required id="name" name="name" value="Введите ваше имя *" class="form-main__input-text"> <br>
+
+    <label for="middle" class="form-main__item">Отчество:</label>
+    <input type="text" required id="middle" name="lastname" value="Ну и отчество тоже" class="form-main__input-text">
+
+    <h3 class="form-main__item"> Ваши безбашенные <br> достижения в путешествии</h3>
+
+    <label for="shark" class="form-main__adventures">Сделал селфи с акулой</label>
+    <input type="checkbox" name="adventures" id="shark" class="form-main__input-checkbox"> <br>
+
+    <label for="beach" class="form-main__adventures">Обгорел на пляже</label>
+    <input type="checkbox" name="adventures" id="beach" class="form-main__input-checkbox"> <br>
+
+    <label for="norris" class="form-main__adventures">Видел Чака Норриса</label>
+    <input type="checkbox" name="adventures" id="norris" class="form-main__input-checkbox"> <br>
+
+    <label for="souvenirs" class="form-main__adventures">Накупил сувениров</label>
+    <input type="checkbox" name="adventures" id="souvenirs" class="form-main__input-checkbox"> <br>
+
+    <label for="tower" class="form-main__adventures">Удержал башню</label>
+    <input type="checkbox" name="adventures" id="tower" class="form-main__input-checkbox"> <br>
+
+    <label for="hotel" class="form-main__adventures">Разгромил отель</label>
+    <input type="checkbox" name="adventures" id="hotel" class="form-main__input-checkbox"> <br>
+
+    <label for="number" class="form-main__item">Номер телефона</label>
+    <input type="text" name="number" id="number" value="Номер, пожалуйста" class="form-main__input-text"> <br>
+
+    <label for="mail" class="form-main__item">Адрес почты</label>
+    <input type="text" required name="mail" id="mail" value="Введите почту *" class="form-main__input-text"> <br>
+
+    <h3 class="form-main__item"> С каким приложением <br> путешествовали?</h3>
+
+    <label for="ios" class="form-main__os">Pink для iOS</label>
+    <input type="radio" name="os" value="Pink для iOS" id="ios" class="form-main__input-radio"> <br>
+
+    <label for="android" class="form-main__os">Pink на Android</label>
+    <input type="radio" name="os" value="Pink на Android" id="android" class="form-main__input-radio"> <br>
+
+    <label for="windows" class="form-main__os">Windows Phone</label>
+    <input type="radio" name="os" value="Windows Phone" id="windows" class="form-main__input-radio"> <br>
+
+    <h3 class="form-main__item">Опишите свои эмоции</h3>
+
+    <textarea name="coments" id="coments" cols="30" rows="10" class="form-main__area">Можно прям в красках, не стесняясь в выражениях</textarea>
+    <br>
+
+    <button type="submit" class="form-main__submit form-main__submit--active">Отправить форму</button>
 
 
-<body>
+    <p class="form-main__description">*- обязательные поля</p>
 
+  </form>
+
+  <section class="error">
+    <h2 class="error__alert">Что-то пошло <br>  не так!</h2>
+    <p class="error__description">Проверьте поля, выделенные <br> красным, скорее всего вы забыли <br> их заполнить</p> <br>
+    <button type="submit" class="error__button">ОК</button>
+  </section>
+
+  <section class="sent">
+    <h2 class="sent__message">Ваша заявка <br> отправлена</h2> <br>
+    <p class="sent__description">Спасибо за ваше участие, ваша <br> заявка уже поступила к нам. В <br> ближайшее время мы рассмотрим <br> ее и оповестим вас.</p> <br>
+    <button type="submit" class="sent__button">Закрыть окно</button>
+  </section>
+
+
+<footer class="footer">
+  <a class="logo-footer logo"><img src="#" alt="Лого PINK"></a>
+  <section class="social">
+    <h2 class="visualy-hidden">Социальные сети</h2>
+    <ul class="social__list">
+      <li class="social__item"><a href ="#">Twitter</a></li>
+      <li class="social__item"><a href ="#">Facebook</a></li>
+      <li class="social__item"><a href ="#">YouTube</a></li>
+    </ul>
+  </section>
+  <p class="elaborated">
+    Разработано:
+    <a class="elaborated__content"> <img src="#" alt="Лого HtmlAcademy"></a>
+  </p>
+</footer>
+</main>
 </body>
 </html>
