@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Пинк</title>
+</head>
+<body>
+<header class="header">
+  <a class="header__logo logo"><img src="#" alt="Лого"></a>
+  <nav class="navigation">
+    <button class="navigation__toggle" type="button"><span class="visualy-hidden">Открыть меню</span></button>
+    <ul class="navigation__list site-list">
+      <li class="site-list__item"><a href="index.html">Главная</a></li>
+      <li class="site-list__item"><a href="catalog.html">Фотографии</a></li>
+      <li class="site-list__item"><a href="form.html">Конкурс</a></li>
+      <li class="site-list__item"><a>HTML Academy</a></li>
+    </ul>
+  </nav>
+</header>
+<main class="catalog-main">
+  <h1 class="catalog-main__title">Фотографии <br> пользователей</h1>
+  <h2 class="catalog-main__description">Взгляните на фотографии, которые  выкладывают пользователи! Видите, как не хватает ваших?</h2>
+  <ul class="catalog-main__list photo-item">
+    <li class="photo-item">
+      <img src="#" alt="Панорамное фото моста">
+      <p class="photo-item__author">Анна (5 минут назад)</p>
+      <h3 class="photo-item__title">Прыгать или нет? Напишите в комментарии свой совет и смотрите прямую трансляцию в перископе, задавайте свои вопросы!</h3>
+      <button class="photo-item__button"><span class="visually-hidden">Сердечко, нравится</span></button>
+      <p class="photo-item__like">Нравится: 215</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото автомобиля">
+      <p class="photo-item__author">Левон (5 часов назад)</p>
+      <h3 class="photo-item__title">Вчера он на луну летал, сегодня в руки к нам попал.</h3>
+      <button class="photo-item__button"><span class="visually-hidden">Сердечко, нравится</span></button>
+      <p class="photo-item__like">Нравится: 356</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото барабанной установки">
+      <p class="photo-item__author">Антон (12 часов назад)</p>
+      <h3 class="photo-item__title">Соседи будут рады!.</h3>
+      <button class="photo-item__button"><span class="visually-hidden">Сердечко, нравится</span></button>
+      <p class="photo-item__like">Нравится: 666</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото панорамного окна">
+      <p class="photo-item__author">Борис (20 часов назад)</p>
+      <h3 class="photo-item__title">Здесь могла быть ваша цитата о высоком и вечном.</h3>
+      <button class="photo-item__button"><span class="visually-hidden">Сердечко, нравится</span></button>
+      <p class="photo-item__like">Нравится: 215</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото овощного рынка под большим тентом">
+      <p class="photo-item__author">Сергей (25 часов назад)</p>
+      <h3 class="photo-item__title">Самая кубанская в мире!</h3>
+      <button class="photo-item__button"><span class="visually-hidden">Сердечко, нравится</span></button>
+      <p class="photo-item__like">Нравится: 4</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Панорамное фото гор без снега">
+      <p class="photo-item__author">Максим (40 часов назад)</p>
+      <h3 class="photo-item__title">Где снег-то?</h3>
+      <button class="photo-item__button"><span class="visually-hidden">Сердечко, нравится</span></button>
+      <p class="photo-item__like">Нравится: 150</p>
+    </li>
+    <li class="photo-item">
+      <img src="#" alt="Фото крыла летящего самолета на фоне заката">
+      <p class="photo-item__author">Надежда (45 часов назад)</p>
+      <h3 class="photo-item__title">Всем GM и взаимные лайки!</h3>
+      <button class="photo-item__button"><span class="visually-hidden">Сердечко, нравится</span></button>
+      <p class="photo-item__like">Нравится: 2560</p>
+    </li>
+  </ul>
+  <section class="upload">
+    <h2 class="upload__title">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</h2>
+    <form action="https://echo.htmlacademy.ru/" method="get" class="upload__form photo-editor">
+      <img src="#" alt="Фото заснеженной дороги на фоне заката" class="upload__picture">
+    <button class="photo-editor__button" type="button"><span class="visually-hidden">Обрезать изображение</span></button>
+    <button class="photo-editor__button" type="button"><span class="visually-hidden">Залить изображение цветом</span></button>
+    <button class="photo-editor__button" type="button"><span class="visually-hidden">Изменить освещение изображения</span></button>
+    <div class="upload__range"><input type="range" min="0" max="100" step="1" value="50"></div>
+      <div class="upload__range"><input type="range" min="0" max="100" step="1" value="50"></div>
+        <div class="upload__range"><input type="range" min="0" max="100" step="1" value="50"></div>
+    <button class="upload__button upload__button--submit" type="submit">Запостить</button>
+    <button class="upload__button upload__button--reset" type="reset">Отмена</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <a class="logo-footer logo"><img src="#" alt="Лого PINK"></a>
+    <section class="social">
+      <h2 class="visualy-hidden">Социальные сети</h2>
+      <ul class="social__list">
+        <li class="social__item"><a href ="#">Twitter</a></li>
+        <li class="social__item"><a href ="#">Facebook</a></li>
+        <li class="social__item"><a href ="#">YouTube</a></li>
+      </ul>
+    </section>
+    <section class="elaborated">
+      <h2 class="visualy-hidden">Сайт разработан html academy</h2>
+      <p class="elaborated__description">Разработано <img src="#" alt="Лого HtmlAcademy"></p>
+    </section>
+  </footer>
+</main>
+</body>
+</html>
